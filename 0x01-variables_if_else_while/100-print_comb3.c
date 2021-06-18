@@ -1,21 +1,21 @@
 #include <stdio.h>
-/** Script Ten: 100-print_comb3.c (advanced)*/
+/** Script Ten: 100-print_comb3.c*/
 /**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, p;
+	int x, y;
 
-	for (n = 0; n < 10; n++)
+	for (x = 0; x < 9; x++)
 	{
-		for (p = 0; p < 10; p++)
+		for (y = x + 1; y < 10; y++)
 		{
-			putchar((n % 10) + '0');
-			putchar((p % 10) + '0');
+			putchar((x % 10) + '0');
+			putchar((y % 10) + '0');
 
-			if (n == 9 && p == 9)
+			if (x == 8 && y == 9)
 				continue;
 
 			putchar(',');
