@@ -1,9 +1,9 @@
 #include "holberton.h"
 /** Task Two: 2-print_alphabet_x10.c*/
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by  new line
+ * print_alphabet_x10 - prints 10 times alphabet in lowercase
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int y;
 	char x;
