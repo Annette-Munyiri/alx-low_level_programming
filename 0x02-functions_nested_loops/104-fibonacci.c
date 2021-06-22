@@ -32,7 +32,6 @@ int main(void)
 			h1 += 1;
 			h2 %= 10000000000;
 		}
-		
 		printf("%lu%lu", h1, h2);
 		if (c != 98)
 			printf(", ");
