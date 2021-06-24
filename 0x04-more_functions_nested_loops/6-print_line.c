@@ -2,6 +2,7 @@
 /** Task Six */
 /**
  * print_line - prints a straight line
+ * @n: number of times _ is printed
  */
 void print_line(int n)
 {
@@ -11,6 +12,7 @@ void print_line(int n)
 	} else
 	{
 		int i;
+
 		for (i = 1; i <= n; i++)
 		{
 			_putchar('_');
