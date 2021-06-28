@@ -26,7 +26,7 @@ int main(void)
 		dhalf1 = (sum - 2772) / 2;
 		dhalf2 = (sum - 2772) / 2;
 		if ((sum - 2772) % 2 != 0)
-			dhalf++;
+			dhalf1++;
 
 		for (index = 0; pword[index]; index++)
 		{
