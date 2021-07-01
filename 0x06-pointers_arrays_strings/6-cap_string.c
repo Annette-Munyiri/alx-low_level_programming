@@ -27,7 +27,6 @@ char *cap_string(char *s)
 			case ')':
 			case '{':
 			case '}':
-			case ' ':
 				if (s[x + 1] > 96 && s[x + 1] < 123)
 				{
 					s[x + 1] = s[x + 1] - 32;
