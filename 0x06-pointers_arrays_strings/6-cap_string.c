@@ -1,37 +1,34 @@
 #include "holberton.h"
 /**
- * cap_string - capitalizes all words in string
- * @s: input value
- * Return: string
+ * cap_string - capitalize string
+ * @s: input string
+ * Return: Result string
  */
 char *cap_string(char *s)
 {
-	int x;
+	int i;
 
-	x = 0;
-	if (s[0] >= 'a' && s[0] <= 'z')
+	i = 0;
+
+	while (s[i] != '\0')
 	{
-		s[0] = s[0] - 32;
-	}
-	for (x = 0; s[x] != '\0'; x++)
-	{
-		switch (s[x])
+		if (s[0] >= 'a' && s[0] <= 'z')
 		{
-			case ',':
-			case ';':
-			case '.':
-			case '!':
-			case '?':
-			case '"':
-			case '(':
-			case ')':
-			case '{':
-			case '}':
-				if (s[x + 1] > 96 && s[x + 1] < 123)
-				{
-					s[x + 1] = s[x + 1] - 32;
-				}
+			s[0] = s[0] - 32;
 		}
+		if (s[i] == ' ' || s[i] == '.' ||
+				s[i] == '\n' || s[i] == '\t' ||
+				s[i] == ',' || s[i] == '!' ||
+				s[i] == ';' || s[i] == '?' ||
+				s[i] == '(' || s[i] == ')' ||
+				s[i] == '{' || s[i] == '}')
+		{
+			if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+			{
+				s[i + 1] = s[i + 1] - 32;
+			}
+		}
+		i++;
 	}
 	return (s);
 }
