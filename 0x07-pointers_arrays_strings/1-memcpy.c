@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * *_memcpy - copies mem area 
+ * *_memcpy - copies mem area
  * @dest: destination mem area
  * @src: mem area to copy from
  * @n: no of bytes to copy
