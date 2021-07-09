@@ -18,3 +18,6 @@
   0x07. C - Pointers, Arrays & Strings
 ## Project 8
   0x08. C - Recursion
+## Project 9
+  0x09. C - Static Libraries
+  
