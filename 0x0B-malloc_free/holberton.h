@@ -11,5 +11,6 @@ int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 char *argtostr(int ac, char **av);
 char **strtow(char *str);
+int count_word(char *s);
 
 #endif /* HOLBERTON_H */
