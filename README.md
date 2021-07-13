@@ -20,4 +20,7 @@
   0x08. C - Recursion
 ## Project 9
   0x09. C - Static Libraries
-  
+## Project 10
+  0x0A. C - argc, argv
+## Project 11
+  0x0B. C - malloc, free
