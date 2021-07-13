@@ -2,42 +2,43 @@
 #include <stdlib.h>
 
 /**
- * argstostr - concatenates all args of the program
- * @ac: no of args passed
- * @av: an array of pointers to the args
- * Return: if ac == 0, av == NULL, or func fails - NULL.
- * Otherwise - pointer to the new string.
+ * argstostr - concatenates all args of program
+ * @ac: no of args
+ * @av: array of args
+ * Return: pointer to the new string (Success), NULL (Error)
  */
 char *argstostr(int ac, char **av)
 {
+	int i, j, k, l;
 	char *str;
-	int arg, byte, index, size = ac;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	for (arg = 0; arg < ac; arg++)
+	for (i = 0; i < ac; i++)
 	{
-		for (byte = 0; av[arg][byte]; byte++)
-			size++;
+		for (j = 0; av[i][j] != '\0'; j++)
+			l++;
+		l++;
 	}
 
-	str = malloc(sizeof(char) * size + 1);
+	str = malloc(sizeof(char) * (l + 1));
 
 	if (str == NULL)
 		return (NULL);
 
-	index = 0;
+	k = 0;
 
-	for (arg = 0; arg < ac; arg++)
+	for (i = 0; i < ac; i++)
 	{
-		for (byte = 0; av[arg][byte]; byte++)
-			str[index++] = av[arg][byte];
-
-		str[index++] = '\n';
+		for (j = 0; av[i][j] != '\0'; j++)
+		{
+			str[k] = av[i][j];
+			k++;
+		}
+		str[k] = '\n';
+		k++;
 	}
-
-	str[size] = '\0';
 
 	return (str);
 }
