@@ -1,5 +1,5 @@
-#include "holberton.h"
 #include <stdlib.h>
+#include "holberton.h"
 
 /**
  * string_nconcat - concatenates two strings
