@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include "holberton.h"
 
 /**
@@ -35,9 +34,13 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	while (s1[x] != '\0')
 	{
-		str[x] = s2[y];
+		str[x] = s1[x];
 		x++;
-		y++;
+	}
+	while (y < n && s2[y] != '\0')
+	{
+		str[x] = s2[y];
+		x++, y++;
 	}
 
 	str[x] = '\0';
