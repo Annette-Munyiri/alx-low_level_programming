@@ -26,3 +26,7 @@
   0x0B. C - malloc, free
 ## Project 12
   0x0C. C - More malloc, free
+## Project 13
+  0x0D. C - Preprocessor
+## Project 14
+  0x0E. C - Strutures, typedef
