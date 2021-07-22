@@ -32,3 +32,5 @@
   0x0E. C - Strutures, typedef
 ## Project 15
   0x0F. C - Function pointers
+## Project 16
+  0x10. C - Variadic functions
