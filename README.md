@@ -34,3 +34,7 @@
   0x0F. C - Function pointers
 ## Project 16
   0x10. C - Variadic functions
+## Project 17
+  0x11. C - printf
+## Project 18
+  0x12. C - Singly linked lists
