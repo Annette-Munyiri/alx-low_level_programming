@@ -40,3 +40,5 @@
   0x12. C - Singly linked lists
 ## Project 19
   0x13. C - More singly linked lists
+## Project 20
+  0x14. C - Bit manipulation
