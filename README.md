@@ -34,7 +34,7 @@
   0x0F. C - Function pointers
 ## Project 16
   0x10. C - Variadic functions
-## Project 17
+## Project 17 (Group Project)
   0x11. C - printf
 ## Project 18
   0x12. C - Singly linked lists
@@ -44,3 +44,5 @@
   0x14. C - Bit manipulation
 ## Project 21
   0x15. C - File I/O
+## Project 22 (Group Project)
+  0x16. C - Simple Shell
