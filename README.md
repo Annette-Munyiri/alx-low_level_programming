@@ -46,3 +46,5 @@
   0x15. C - File I/O
 ## Project 22 (Group Project)
   0x16. C - Simple Shell
+## Project 23
+  0x17. C - Doubly linked lists
