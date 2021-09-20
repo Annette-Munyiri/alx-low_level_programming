@@ -1,0 +1,6 @@
+comp
+*.swp
+*.out
+*~
+*#
+*.pyc
