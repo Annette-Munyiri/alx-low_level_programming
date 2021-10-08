@@ -52,3 +52,5 @@
   0x18. C - Dynamic libraries
 ## Project 25
   0x19. C - Stacks, Queues - LIFO, FIFO
+## Project 26
+  0x1A. C - Hash tables
