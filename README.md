@@ -54,3 +54,5 @@
   0x19. C - Stacks, Queues - LIFO, FIFO
 ## Project 26
   0x1A. C - Hash tables
+## Project 27
+  0x1B. C - Sorting algorithms & Big O
